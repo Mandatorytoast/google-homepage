@@ -118,9 +118,6 @@ html {
         justify-content: center;
 }
 
-#search-container {
-        position: relative;
-}
 #search-input {
         height: 43px;
         width:35vw;
@@ -142,9 +139,8 @@ html {
 }
 
 #search-icon {
-        position: absolute;
-        z-index: 2;
-        margin-left: 40px;
+        position: relative;
+        left: 40px;
         color: gray;
 }
 
