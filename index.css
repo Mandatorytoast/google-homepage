@@ -126,7 +126,7 @@ html {
         border-style: solid;
         border-width: 1px;
         font-size: 0.85em;
-        padding: 0 40px 0 40px;
+        padding: 0 50px 0 50px;
 }
 
 #search-input:hover {
@@ -136,6 +136,13 @@ html {
 #search-input:focus {
         box-shadow: 1px 1px 5px 1px #e6e6e6;
         outline: none;
+}
+
+#search-icon {
+        position:relative;
+        top: 0px;
+        left: 40px;
+        color: gray;
 }
 
 .btn {
@@ -180,6 +187,10 @@ footer{
         text-decoration: none;
         padding: 14px;
         margin-top: 4px;
+}
+
+.footer-item:hover {
+        text-decoration: underline;
 }
 
 #footer-right {
