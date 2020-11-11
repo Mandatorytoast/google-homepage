@@ -2,6 +2,12 @@ body {
         background-color: #FFFFFF;
         margin: 0px;
         padding: 0px;
+        height: 100vh;
+}
+
+html {
+        margin: 0px;
+        padding: 0px;
 }
 
 .nav-container {
@@ -11,7 +17,7 @@ body {
         height: auto;
         align-content: center;
         justify-content: space-between;
-        margin-top: 18px;
+        padding-top: 18px;
         margin-left: 14px;
         margin-right: 14px;
 }
@@ -20,6 +26,10 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-grow: 2;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 67%;
 }
 
 .nav-item{
@@ -90,7 +100,63 @@ body {
 #google-icon {
         height: auto;
         width: 272px;
+        margin-bottom: 25px;
 }
+
+
+.form-container {
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+}
+
+.vert-center{
+        align-items:center;
+}
+.button-container {
+        display:flex;
+        justify-content: center;
+}
+
+#search-input {
+        height: 43px;
+        width:35vw;
+        margin-bottom: 25px;
+        border-radius: 22px;
+        border-style: solid;
+        border-width: 1px;
+        font-size: 0.85em;
+        padding: 0 40px 0 40px;
+}
+
+#search-input:hover {
+        box-shadow: 1px 1px 5px 1px #e6e6e6;
+}
+
+#search-input:focus {
+        box-shadow: 1px 1px 5px 1px #e6e6e6;
+        outline: none;
+}
+
+.btn {
+        background-color: #F2F2F2;
+        border-width: 0px;
+        padding: 10px 14px 10px 14px;
+        border-radius: 5px;
+        font-size: 0.85em;
+        color: #5E6369;
+        margin: 0 5px 0 5px;
+}
+
+.btn:hover{
+        border-style: solid;
+        border-color: #C3C3C3;
+        border-width: 1px;
+        padding: 9px 13px 9px 13px;
+        background-color: #F8F8F8;
+        color: #000000;
+}
+
 footer{
         position: fixed;
         bottom: 0px;
